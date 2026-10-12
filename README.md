@@ -308,8 +308,15 @@ Through this project, I gained hands-on experience with:
 PasteDB continues to evolve as I learn new technologies and build features that make sharing code, notes, and files faster, simpler, and more secure.
 
 ---
+## Official Project & Ecosystem
 
-📄 License
+PasteDB and its ecosystem are officially created and maintained by **Aditya Sorathiya**. This ecosystem includes the main PasteDB web platform, VS Code extension, CLI tool, Python SDK and NodeJS SDK. Each component may have its own dedicated repository, but all official repositories and projects are part of the PasteDB ecosystem. This repository is the official main repository of PasteDB. Please refer to the respective official repositories for the VS Code extension, CLI, and SDKs to find their source code, documentation, and updates.
+
+
+
+---
+
+## 📄 License
 
 This project is available under the MIT License.
 
