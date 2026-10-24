@@ -526,6 +526,12 @@ display:flex;
 
         const registerData =
             await registerRes.json();
+       if (!registerRes.ok) {
+    throw new Error(
+        registerData.detail ||
+        "Device registration failed"
+    );
+}
        const localKEK = await getFromDB("accountKEK");
 
 if (
@@ -606,19 +612,20 @@ if (
             redirect ||
             "/dashboard";
 
-    } catch (err) {
+    }  catch (err) {
 
-        console.error(err);
+    console.error(err);
 
-        showError(
-            "Could not connect to server."
-        );
+    showError(
+        err.message ||
+        "Could not connect to server."
+    );
 
-        btn.disabled = false;
+    btn.disabled = false;
 
-        btnText.textContent =
-            "Continue with Google";
-    }
+    btnText.textContent =
+        "Continue with Google";
+}
 
    }
   </script>
