@@ -9,7 +9,7 @@
 ![Database](https://img.shields.io/badge/Database-MongoDB-success)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-
+[![Measured on Legit.Show](https://legit.show/badge/pastedb-netlify-app.svg)](https://legit.show/s/pastedb-netlify-app)
 
 ---
 
